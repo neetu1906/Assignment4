@@ -3,7 +3,8 @@
 
 angular.module('MenuApp')
 .component('categories', {
-  templateUrl: require('src/menuDatalist/templates/MenuAppList.template.html'),
+  //templateUrl: 'src/menuDatalist/templates/MenuAppList.template.html',
+  template:'<html><h1>It worked..<h1></html>',
   bindings: {
     items: '<'
   }
